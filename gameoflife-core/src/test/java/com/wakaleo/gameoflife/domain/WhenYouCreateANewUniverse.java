@@ -70,7 +70,7 @@ public class WhenYouCreateANewUniverse {
 
         String seededGrid = "...\n" + "***\n" + "...\n";
 
-        String expectedNextGeneration = ".*.\n" + ".*.\n" + ".*.\n";
+        String expectedNextGeneration = ".*.\n" + ".*.\n" + ".*.\n\n";
 
         Universe theUniverse = new Universe(seededWith(seededGrid));
         theUniverse.createNextGeneration();
